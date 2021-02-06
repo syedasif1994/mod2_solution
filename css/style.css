@@ -1,0 +1,122 @@
+*{
+box-sizing: border-box;
+position: relative;
+}
+
+h1{
+    text-align: center;
+    color:black;
+}
+
+
+#b1{
+background-color:red;
+margin:10px;
+width: 95%;
+border:1px solid black ;
+}
+
+#b2{
+background-color:yellow;
+margin:10px;
+width: 95%;
+border:1px solid black ;
+}
+
+#b3{
+background-color:cornflowerblue;
+margin:10px;
+width: 95%;
+border:1px solid black ;
+}
+            
+.p1,.p2,.p3{
+    margin:20px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+.t1 {
+text-align: center;
+background-color:yellow;
+margin-top:00px;
+margin-left:70%;
+width: 30%;
+font-size:large;
+font-weight: bold;
+}
+
+.t2{
+text-align: center;
+background-color:blue;
+margin-top:00px;
+margin-left:70%;
+width: 30%;
+font-size:large;
+font-weight: bold;
+color:white;
+}
+
+.t3{
+text-align: center;    
+background-color:red;
+margin-top:00px;
+margin-left:70%;
+width: 30%;
+font-size:large;
+font-weight: bold;
+}
+       
+
+
+.row{
+width: 100%;
+}
+
+@media (min-width:992px){
+    .box-lg-1,.box-lg-2,.box-lg-3{
+        float:left;
+    }
+    .box-lg-1{
+        width:33%;
+    }
+    .box-lg-2{
+        width:33%;
+    }
+    .box-lg-3{
+        width:33%;
+    } }
+
+
+    @media (min-width:768px) and (max-width:991px){
+        .box-md-1,.box-md-2,.box-md-3{
+            float:left;
+        }
+        .box-md-1{
+            width:50%;
+        }
+        .box-md-2{
+            width:50%;
+        }
+        .box-md-3{
+            width:100%;
+        } 
+        #b3{
+            width: 98%;
+          }}   
+
+ @media (max-width:767px){
+    
+            .box-sm-1,.box-sm-2,.box-sm-3{
+                float:left;
+            }
+            .box-sm-1{
+                width:100%;
+            }
+            .box-sm-2{
+                width:100%;
+            }
+            .box-sm-3{
+                width:100%;
+            } 
+            
+        }    
